@@ -49,7 +49,7 @@ r2 = 1 - ss_res / ss_tot
 # Print dataset and regression summary
 print("Dataset (15 professionals):")
 for i, p in enumerate(professionals, 1):
-    print(f"{i:2d}. Education: {p['Education']:<12}  Salary: ${p['Salary']:,.0f}")
+    print(f"{i:2d}. Education: {p['Education']:<12}")
 
 print("\nEncoding:", edu_to_num)
 print(f"\nLinear regression: Salary = {slope:,.2f} * EducationLevel + {intercept:,.2f}")
